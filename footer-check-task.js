@@ -22,7 +22,7 @@ module.exports = {
     },
 
 
-    'User Registration Test': function (browser) {
+    'Footer Check Test': function (browser) {
 
         // checking text 'QUICK LINKS'
         browser.assert.containsText({

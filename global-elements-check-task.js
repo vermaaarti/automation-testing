@@ -21,18 +21,6 @@ module.exports = {
             locateStrategy: 'xpath'
         }, 'accept cookie');
 
-        // centered popup
-        /*  browser.click({
-              selector: '/html/body/div[2]/div/footer/button',
-              locateStrategy: 'xpath'
-          }, 'close centered popup');  */
-
-        // cookie
-        /*   browser.click({
-               selector: '//*[@id="inner-wrap"]/app-footer/app-cookie-notice/div/div/div[2]/div[2]/button[1]',
-               locateStrategy: 'xpath'
-           }, 'accept cookie');  */
-
     },
 
     'User Registration Test': function (browser) {
