@@ -252,8 +252,7 @@ module.exports = {
         // checking ' Item Number ' para
         browser.assert.containsText({ selector: 'mat-option[role="option"]:nth-of-type(6)>span' }, 'Item Number')
 
-        // close popup
-        browser.keys(browser.Keys.ESCAPE, 'close popup');
+        browser.click('body');     
 
         browser.assert.containsText({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge/app-invoice-information/form/div/mat-form-field/div[2]/div/mat-hint', locateStrategy: 'xpath' }, 'Please select one..')
 
