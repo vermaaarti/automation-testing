@@ -126,408 +126,40 @@ module.exports = {
 
 
         // 1st -----------------------------------------------
-        //  THROTTLE PEDAL - VOLTAGE DISAGREEMENT - Machine fault code
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[1]/span', locateStrategy: 'xpath' }, 'THROTTLE PEDAL - VOLTAGE DISAGREEMENT - Machine fault code')
-
-        // THROTTLE PEDAL - VOLTAGE DISAGREEMENT
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[1]/strong[1]/app-format-url-link/a', locateStrategy: 'xpath' }, 'THROTTLE PEDAL - VOLTAGE DISAGREEMENT')
-       
-     //   browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[1]/strong[1]/app-format-url-link/a', locateStrategy: 'xpath' }, 30000)
-
-        // open THROTTLE PEDAL - VOLTAGE DISAGREEMENT
-       // browser.click({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[1]/strong[1]/app-format-url-link', locateStrategy: 'xpath' }, 'open THROTTLE PEDAL - VOLTAGE DISAGREEMENT')
-      
-       browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[1]/strong[1]', locateStrategy: 'xpath' }, 'open THROTTLE PEDAL - VOLTAGE DISAGREEMENT');
-
-       browser.url('https://onlineexpress-t.jlg.com/knowledge/4338-throttle-pedal-voltage-disagreement/article/000001726');
-
-        //  Home >>
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/div/div/app-base-breadcrumbs/ol/li[1]', locateStrategy: 'xpath' }, 'Home >>')
-
-        // Knowledge Base Articles
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/div/div/app-base-breadcrumbs/ol/li[2]', locateStrategy: 'xpath' }, 'Knowledge Base Articles')
-
-        // THROTTLE PEDAL - VOLTAGE DISAGREEMENT
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/app-cartridges[1]/app-cartridge/app-article-detail/div/h1', locateStrategy: 'xpath' }, 'THROTTLE PEDAL - VOLTAGE DISAGREEMENT')
-
-        //  back 
-        browser.url('https://onlineexpress-t.jlg.com/knowledge');
-
-        // Throttle position sensors voltages are in disagreement.
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[1]/em', locateStrategy: 'xpath' }, 'Throttle position sensors voltages are in disagreement.')
 
         // Serial number range
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[1]/strong[2]', locateStrategy: 'xpath' }, 'Serial number range')
+        //  browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[1]/strong[2]', locateStrategy: 'xpath' }, 'Serial number range')
 
         // Last Modified:
         browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[1]/strong[3]', locateStrategy: 'xpath' }, 'Last Modified:')
 
 
+        //  browser.pause(4000)  
+        //browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[1]/app-copy-button/button/span[2]', locateStrategy: 'xpath' }, 40000)
+
+
+
         //  2nd -------------------------------------------------------
 
-        //  Running at Cutback - Out of Transport Position - Machine fault code
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[2]/span', locateStrategy: 'xpath' }, 'Running at Cutback - Out of Transport Position - Machine fault code')
-
-        // RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[2]/strong[1]/app-format-url-link/a', locateStrategy: 'xpath' }, 'RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION')
-
-        // open RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION
-        browser.click({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[2]/strong[1]/app-format-url-link/a', locateStrategy: 'xpath' }, 'open RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION')
-
-        //  Home >>
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/div/div/app-base-breadcrumbs/ol/li[1]', locateStrategy: 'xpath' }, 'Home >>')
-
-        // Knowledge Base Articles
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/div/div/app-base-breadcrumbs/ol/li[2]', locateStrategy: 'xpath' }, 'Knowledge Base Articles')
-
-        // RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/app-cartridges[1]/app-cartridge/app-article-detail/div/h1', locateStrategy: 'xpath' }, 'RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION')
-
-        //  back 
-        browser.url('https://onlineexpress-t.jlg.com/knowledge');
-
-        // No high drive speed and the oscillating axle is locked with the main boom below elevation and the telescope is retracted.
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[2]/em', locateStrategy: 'xpath' }, 'No high drive speed and the oscillating axle is locked with the main boom below elevation and the telescope is retracted.')
-
-        // Serial number range
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[2]/strong[2]', locateStrategy: 'xpath' }, 'Serial number range')
-
-        // Last Modified:
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[2]/strong[3]', locateStrategy: 'xpath' }, 'Last Modified:')
-
-
         //   3rd --------------------------------------------------------------
-        //  Running at Cutback - Out of Transport Position - Machine fault code
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[3]/span', locateStrategy: 'xpath' }, 'Running at Cutback - Out of Transport Position - Machine fault code')
-
-        // RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[3]/strong[1]/app-format-url-link/a', locateStrategy: 'xpath' }, 'RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION')
-
-        // open RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION
-        browser.click({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[3]/strong[1]/app-format-url-link/a', locateStrategy: 'xpath' }, 'open RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION')
-
-         //  Home >>
-         browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/div/div/app-base-breadcrumbs/ol/li[1]', locateStrategy: 'xpath' }, 'Home >>')
-
-         // Knowledge Base Articles
-         browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/div/div/app-base-breadcrumbs/ol/li[2]', locateStrategy: 'xpath' }, 'Knowledge Base Articles')
- 
-        // RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/app-cartridges[1]/app-cartridge/app-article-detail/div/h1', locateStrategy: 'xpath' }, 'RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION')
-
-        //  back 
-        browser.url('https://onlineexpress-t.jlg.com/knowledge');
-
-        // Machine will not drive in high speed when main boom and Tower booms are lowered.
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[3]/em', locateStrategy: 'xpath' }, 'Machine will not drive in high speed when main boom and Tower booms are lowered.')
-
-        // Serial number range
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[3]/strong[2]', locateStrategy: 'xpath' }, 'Serial number range')
-
-        // Last Modified:
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[3]/strong[3]', locateStrategy: 'xpath' }, 'Last Modified:')
-
-
 
         //    4th ------------------------------------------------------
-        //  Running at Cutback - Out of Transport Position - Machine fault code
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[4]/span', locateStrategy: 'xpath' }, 'Running at Cutback - Out of Transport Position - Machine fault code')
-
-        // RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[4]/strong[1]/app-format-url-link/a', locateStrategy: 'xpath' }, 'RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION')
-
-        // open RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION
-        browser.click({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[4]/strong[1]/app-format-url-link/a', locateStrategy: 'xpath' }, 'open RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION')
-
-         //  Home >>
-         browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/div/div/app-base-breadcrumbs/ol/li[1]', locateStrategy: 'xpath' }, 'Home >>')
-
-         // Knowledge Base Articles
-         browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/div/div/app-base-breadcrumbs/ol/li[2]', locateStrategy: 'xpath' }, 'Knowledge Base Articles')
- 
-        // RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/app-cartridges[1]/app-cartridge/app-article-detail/div/h1', locateStrategy: 'xpath' }, 'RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION')
-
-        //  back 
-        browser.url('https://onlineexpress-t.jlg.com/knowledge');
-
-        // Machine will not drive in high speed and the oscillating axle is locked when the tower boom is fully lowered, the main boom is below horizontal.
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[4]/em', locateStrategy: 'xpath' }, 'Machine will not drive in high speed and the oscillating axle is locked when the tower boom is fully lowered, the main boom is below horizontal.')
-
-        // Serial number range
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[4]/strong[2]', locateStrategy: 'xpath' }, 'Serial number range')
-
-        // Last Modified:
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[4]/strong[3]', locateStrategy: 'xpath' }, 'Last Modified:')
-
-
 
         // 5th -----------------------------------------------------
-        //  Running at Cutback - Out of Transport Position - Machine fault code
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[5]/span', locateStrategy: 'xpath' }, 'Running at Cutback - Out of Transport Position - Machine fault code')
-
-        // RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[5]/strong[1]/app-format-url-link/a', locateStrategy: 'xpath' }, 'RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION')
-
-        // open RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION
-        browser.click({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[5]/strong[1]/app-format-url-link/a', locateStrategy: 'xpath' }, 'open RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION')
-
-         //  Home >>
-         browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/div/div/app-base-breadcrumbs/ol/li[1]', locateStrategy: 'xpath' }, 'Home >>')
-
-         // Knowledge Base Articles
-         browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/div/div/app-base-breadcrumbs/ol/li[2]', locateStrategy: 'xpath' }, 'Knowledge Base Articles')
- 
-        // RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/app-cartridges[1]/app-cartridge/app-article-detail/div/h1', locateStrategy: 'xpath' }, 'RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION')
-
-        //  back 
-        browser.url('https://onlineexpress-t.jlg.com/knowledge');
-
-        // Machine will not drive in high speed when the tower boom is fully lowered, the main boom is below horizontal.
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[5]/em', locateStrategy: 'xpath' }, 'Machine will not drive in high speed when the tower boom is fully lowered, the main boom is below horizontal.')
-
-        // Serial number range
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[5]/strong[2]', locateStrategy: 'xpath' }, 'Serial number range')
-
-        // Last Modified:
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[5]/strong[3]', locateStrategy: 'xpath' }, 'Last Modified:')
-
-
 
         //    6th -------------------------------------------------------
-        //  Running at Cutback - Out of Transport Position - Machine fault code
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[6]/span', locateStrategy: 'xpath' }, 'Running at Cutback - Out of Transport Position - Machine fault code')
-
-        // RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[6]/strong[1]/app-format-url-link/a', locateStrategy: 'xpath' }, 'RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION')
-
-        // open RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION
-        browser.click({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[6]/strong[1]/app-format-url-link/a', locateStrategy: 'xpath' }, 'open RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION')
-
-         //  Home >>
-         browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/div/div/app-base-breadcrumbs/ol/li[1]', locateStrategy: 'xpath' }, 'Home >>')
-
-         // Knowledge Base Articles
-         browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/div/div/app-base-breadcrumbs/ol/li[2]', locateStrategy: 'xpath' }, 'Knowledge Base Articles')
- 
-        // RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/app-cartridges[1]/app-cartridge/app-article-detail/div/h1', locateStrategy: 'xpath' }, 'RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION')
-
-        //  back 
-        browser.url('https://onlineexpress-t.jlg.com/knowledge');
-
-        // Machine will not drive in high speed while in the transport position with the main boom is below horizontal.
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[6]/em', locateStrategy: 'xpath' }, 'Machine will not drive in high speed while in the transport position with the main boom is below horizontal.')
-
-        // Serial number range
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[6]/strong[2]', locateStrategy: 'xpath' }, 'Serial number range')
-
-        // Last Modified:
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[6]/strong[3]', locateStrategy: 'xpath' }, 'Last Modified:')
-
-
 
         //    7th --------------------------------------------
-        //  Running at Cutback - Out of Transport Position - Machine fault code
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[7]/span', locateStrategy: 'xpath' }, 'Running at Cutback - Out of Transport Position - Machine fault code')
-
-        // RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[7]/strong[1]/app-format-url-link/a', locateStrategy: 'xpath' }, 'RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION')
-
-        // open RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION
-        browser.click({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[7]/strong[1]/app-format-url-link/a', locateStrategy: 'xpath' }, 'open RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION')
-
-         //  Home >>
-         browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/div/div/app-base-breadcrumbs/ol/li[1]', locateStrategy: 'xpath' }, 'Home >>')
-
-         // Knowledge Base Articles
-         browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/div/div/app-base-breadcrumbs/ol/li[2]', locateStrategy: 'xpath' }, 'Knowledge Base Articles')
- 
-        // RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/app-cartridges[1]/app-cartridge/app-article-detail/div/h1', locateStrategy: 'xpath' }, 'RUNNING AT CUTBACK - OUT OF TRANSPORT POSITION')
-
-        //  back 
-        browser.url('https://onlineexpress-t.jlg.com/knowledge');
-
-        // Machine will not drive in high speed while in the transport position with the tower boom fully lowered, the main boom is below horizontal.
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[7]/em', locateStrategy: 'xpath' }, 'Machine will not drive in high speed while in the transport position with the tower boom fully lowered, the main boom is below horizontal.')
-
-        // Serial number range
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[7]/strong[2]', locateStrategy: 'xpath' }, 'Serial number range')
-
-        // Last Modified:
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[7]/strong[3]', locateStrategy: 'xpath' }, 'Last Modified:')
-
-
 
         //      8th -------------------------------------------
-        //  CANBUS FAILURE - PLATFORM MODULE - Machine fault code
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[8]/span', locateStrategy: 'xpath' }, 'CANBUS FAILURE - PLATFORM MODULE - Machine fault code')
 
-        // CANBUS FAILURE - PLATFORM MODULE - PHASE 1 MACHINE
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[8]/strong[1]/app-format-url-link/a', locateStrategy: 'xpath' }, 'CANBUS FAILURE - PLATFORM MODULE - PHASE 1 MACHINE')
-
-
-        // open CANBUS FAILURE - PLATFORM MODULE - PHASE 1 MACHINE
-        browser.click({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[8]/strong[1]/app-format-url-link/a', locateStrategy: 'xpath' }, 'open CANBUS FAILURE - PLATFORM MODULE - PHASE 1 MACHINE')
-
-         //  Home >>
-         browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/div/div/app-base-breadcrumbs/ol/li[1]', locateStrategy: 'xpath' }, 'Home >>')
-
-         // Knowledge Base Articles
-         browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/div/div/app-base-breadcrumbs/ol/li[2]', locateStrategy: 'xpath' }, 'Knowledge Base Articles')
- 
-        // CANBUS FAILURE - PLATFORM MODULE - PHASE 1 MACHINE
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/app-cartridges[1]/app-cartridge/app-article-detail/div/h1', locateStrategy: 'xpath' }, 'CANBUS FAILURE - PLATFORM MODULE - PHASE 1 MACHINE')
-
-        //  back 
-        browser.url('https://onlineexpress-t.jlg.com/knowledge');
-
-        // No functions at Platform controls. Ground controls operate properly.
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[8]/em', locateStrategy: 'xpath' }, 'No functions at Platform controls. Ground controls operate properly.')
-
-        // Serial number range
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[8]/strong[2]', locateStrategy: 'xpath' }, 'Serial number range')
-
-        // Last Modified:
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[8]/strong[3]', locateStrategy: 'xpath' }, 'Last Modified:')
-
-
-
-       
         //     9th ---------------------------------------------------
-        //  CANBUS FAILURE - PLATFORM MODULE - Machine fault code
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[9]/span', locateStrategy: 'xpath' }, 'CANBUS FAILURE - PLATFORM MODULE - Machine fault code')
 
-        // CANBUS FAILURE - PLATFORM MODULE - PHASE 2 MACHINE
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[9]/strong[1]/app-format-url-link/a', locateStrategy: 'xpath' }, 'CANBUS FAILURE - PLATFORM MODULE - PHASE 2 MACHINE')
-
-        // open CANBUS FAILURE - PLATFORM MODULE - PHASE 2 MACHINE
-        browser.click({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[8]/strong[1]/app-format-url-link/a', locateStrategy: 'xpath' }, 'open CANBUS FAILURE - PLATFORM MODULE - PHASE 2 MACHINE')
-
-         //  Home >>
-         browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/div/div/app-base-breadcrumbs/ol/li[1]', locateStrategy: 'xpath' }, 'Home >>')
-
-         // Knowledge Base Articles
-         browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/div/div/app-base-breadcrumbs/ol/li[2]', locateStrategy: 'xpath' }, 'Knowledge Base Articles')
- 
-        // CANBUS FAILURE - PLATFORM MODULE - PHASE 2 MACHINE
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/app-cartridges[1]/app-cartridge/app-article-detail/div/h1', locateStrategy: 'xpath' }, 'CANBUS FAILURE - PLATFORM MODULE - PHASE 2 MACHINE')
-
-        //  back 
-        browser.url('https://onlineexpress-t.jlg.com/knowledge');
-
-        // No functions at Platform controls. Ground controls operate properly.
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[9]/em', locateStrategy: 'xpath' }, 'No functions at Platform controls. Ground controls operate properly.')
-
-        // Serial number range
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[9]/strong[2]', locateStrategy: 'xpath' }, 'Serial number range')
-
-        // Last Modified:
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[9]/strong[3]', locateStrategy: 'xpath' }, 'Last Modified:')
-
-
-
-        //        10th ------------------------------------------------
-        //  CANBUS FAILURE - LOAD SENSING SYSTEM MODULE - Machine fault code
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[10]/span', locateStrategy: 'xpath' }, 'CANBUS FAILURE - LOAD SENSING SYSTEM MODULE - Machine fault code')
-
-        // CANBUS FAILURE - LOAD SENSING SYSTEM MODULE - PHASE 1 MACHINE
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[10]/strong[1]/app-format-url-link/a', locateStrategy: 'xpath' }, 'CANBUS FAILURE - LOAD SENSING SYSTEM MODULE - PHASE 1 MACHINE')
-
-        // open CANBUS FAILURE - LOAD SENSING SYSTEM MODULE - PHASE 1 MACHINE
-        browser.click({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[8]/strong[1]/app-format-url-link/a', locateStrategy: 'xpath' }, 'open CANBUS FAILURE - LOAD SENSING SYSTEM MODULE - PHASE 1 MACHINE')
-
-         //  Home >>
-         browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/div/div/app-base-breadcrumbs/ol/li[1]', locateStrategy: 'xpath' }, 'Home >>')
-
-         // Knowledge Base Articles
-         browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/div/div/app-base-breadcrumbs/ol/li[2]', locateStrategy: 'xpath' }, 'Knowledge Base Articles')
- 
-        // CANBUS FAILURE - LOAD SENSING SYSTEM MODULE - PHASE 1 MACHINE
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/app-cartridges[1]/app-cartridge/app-article-detail/div/h1', locateStrategy: 'xpath' }, 'CANBUS FAILURE - LOAD SENSING SYSTEM MODULE - PHASE 1 MACHINE')
-
-        //  back 
-        browser.url('https://onlineexpress-t.jlg.com/knowledge');
-
-        // code is active from both platform and ground control.
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[10]/em', locateStrategy: 'xpath' }, 'code is active from both platform and ground control.')
-
-        // Serial number range
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[10]/strong[2]', locateStrategy: 'xpath' }, 'Serial number range')
-
-        // Last Modified:
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[10]/strong[3]', locateStrategy: 'xpath' }, 'Last Modified:')
-
+        //   10th ------------------------------------------------
 
         //  11th -----------------------------------------------
-        // NO DRIVE ABOVE ELEVATION PUMP MOTOR RUNS
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[11]/strong[1]/app-format-url-link/a', locateStrategy: 'xpath' }, 'NO DRIVE ABOVE ELEVATION PUMP MOTOR RUNS')
-
-        // open NO DRIVE ABOVE ELEVATION PUMP MOTOR RUNS
-        browser.click({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[11]/strong[1]/app-format-url-link/a', locateStrategy: 'xpath' }, 'open NO DRIVE ABOVE ELEVATION PUMP MOTOR RUNS')
-
-         //  Home >>
-         browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/div/div/app-base-breadcrumbs/ol/li[1]', locateStrategy: 'xpath' }, 'Home >>')
-
-         // Knowledge Base Articles
-         browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/div/div/app-base-breadcrumbs/ol/li[2]', locateStrategy: 'xpath' }, 'Knowledge Base Articles')
- 
-        // NO DRIVE ABOVE ELEVATION PUMP MOTOR RUNS
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/app-cartridges[1]/app-cartridge/app-article-detail/div/h1', locateStrategy: 'xpath' }, 'NO DRIVE ABOVE ELEVATION PUMP MOTOR RUNS')
-
-        //  back 
-        browser.url('https://onlineexpress-t.jlg.com/knowledge');
-
-        // No drive above elevation.
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[11]/em', locateStrategy: 'xpath' }, 'No drive above elevation.')
-
-        // Last Modified:
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[11]/strong[2]', locateStrategy: 'xpath' }, 'Last Modified:')
-
-
 
         //     12th ------------------------------------------
-        //  CANBUS FAILURE - LOAD SENSING SYSTEM MODULE - Machine fault code
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[12]/span', locateStrategy: 'xpath' }, 'CANBUS FAILURE - LOAD SENSING SYSTEM MODULE - Machine fault code')
-
-        // CANBUS FAILURE - LOAD SENSING SYSTEM MODULE - PHASE 2 MACHINE
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[12]/strong[1]/app-format-url-link/a', locateStrategy: 'xpath' }, 'CANBUS FAILURE - LOAD SENSING SYSTEM MODULE - PHASE 2 MACHINE')
-
-        // open CANBUS FAILURE - LOAD SENSING SYSTEM MODULE - PHASE 2 MACHINE
-        browser.click({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[8]/strong[1]/app-format-url-link/a', locateStrategy: 'xpath' }, 'open CANBUS FAILURE - LOAD SENSING SYSTEM MODULE - PHASE 2 MACHINE')
-
-        // CANBUS FAILURE - LOAD SENSING SYSTEM MODULE - PHASE 2 MACHINE
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-one-column-page/section/app-cartridges[1]/app-cartridge/app-article-detail/div/h1', locateStrategy: 'xpath' }, 'CANBUS FAILURE - LOAD SENSING SYSTEM MODULE - PHASE 2 MACHINE')
-
-        //  back 
-        browser.url('https://onlineexpress-t.jlg.com/knowledge');
-
-        // code is active from both platform and ground control.
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[12]/em', locateStrategy: 'xpath' }, 'code is active from both platform and ground control.')
-
-        // Serial number range
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[12]/strong[2]', locateStrategy: 'xpath' }, 'Serial number range')
-
-        // Last Modified:
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[12]/strong[3]', locateStrategy: 'xpath' }, 'Last Modified:')
-
-
-
-
-        // link text 
-        browser.assert.containsText({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[1]/app-copy-button/button/mat-icon', locateStrategy: 'xpath' }, 'link')
-
-        // copy link
-        browser.assert.containsText({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[1]/app-copy-button/button/span[2]', locateStrategy: 'xpath' }, 'COPY LINK')
-
-        // click on copy link
-        browser.click({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[11]/app-copy-button', locateStrategy: 'xpath' }, 'click COPY LINK')
-
-        //  link copied!
-        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[1]/app-copy-button/button/span[2]', locateStrategy: 'xpath' }, 'LINK COPIED!')
-
 
         //  Items per page: 
         browser.assert.containsText({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/mat-paginator/div/div/div[1]/div', locateStrategy: 'xpath' }, 'Items per page:')
@@ -567,6 +199,25 @@ module.exports = {
 
         //   contact us button
         browser.assert.containsText({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[3]/app-cartridges/app-cartridge/app-content-slot-footer/app-cartridges/app-cartridge/app-text-promo/div/div/a/span[2]', locateStrategy: 'xpath' }, 'CONTACT US')
+
+
+
+
+        // link icon
+        browser.assert.containsText({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[1]/app-copy-button/button/mat-icon', locateStrategy: 'xpath' }, 'link')
+
+        // copy link
+        browser.assert.containsText({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[1]/app-copy-button/button/span[2]', locateStrategy: 'xpath' }, 'COPY LINK')
+
+        // click on copy link
+        browser.click({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[1]', locateStrategy: 'xpath' }, 'COPY LINK')
+
+        //  link copied!
+        browser.waitForElementVisible({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[2]/div[2]/app-cartridges/app-cartridge[3]/app-article-result-list/div/div[1]/app-copy-button/button/span[2]', locateStrategy: 'xpath' }, 'LINK COPIED!')
+
+
+
+
 
         // click 
         browser.click({ selector: '/html/body/app-root/div/div[2]/div[2]/app-dynamic-route-component/app-template/app-page-slot/section/app-template/app-two-column-page/section/div[3]/app-cartridges/app-cartridge/app-content-slot-footer/app-cartridges/app-cartridge/app-text-promo/div/div/a', locateStrategy: 'xpath' }, 'open CONTACT US').url('https://www.jlg.com/en/about-jlg/contact-us');
