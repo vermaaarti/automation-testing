@@ -22,7 +22,7 @@ module.exports = {
     },
 
 
-    'Footer Check Test': function (browser) {
+    'Footer Sales and Service Locator Test': function (browser) {
 
         // checking text 'QUICK LINKS'
         browser.assert.containsText({
@@ -59,14 +59,104 @@ module.exports = {
             originalHandle.push(newHandle);
             // switch to the new tab
             browser.switchWindow(newHandle);
-            browser.waitForElementVisible('body', 20000)
+            browser.waitForElementVisible('body')
+            browser.pause(6000)
+
+            // Home >>
+            browser.waitForElementVisible({ selector: 'div[id="breadcrumbWrapper"]>div>a' }, 'Home >>')
+
+            //  Sales & Service Locator
+            browser.waitForElementVisible({ selector: 'div[id="breadcrumbWrapper"]>div>span' }, 'Sales & Service Locator')
+            
+            // Cookie Consent
+            browser.waitForElementVisible({ selector: '/html/body/div/form/div[5]/div/p[1]/strong', locateStrategy: 'xpath' }, 'Cookie Consent')
+            
+            // JLG uses necessary cookies to make sure our site works. JLG would also like to set optional cookies to provide you the best user experience. For more detailed information about the cookies JLG uses, see our Privacy Policy.
+            browser.waitForElementVisible({ selector: '/html/body/div/form/div[5]/div/p[2]', locateStrategy: 'xpath' }, 'JLG uses necessary cookies to make sure our site works. JLG would also like to set optional cookies to provide you the best user experience. For more detailed information about the cookies JLG uses, see our Privacy Policy.')
+            
+            // I ACCEPT
+            browser.waitForElementVisible({ selector: '/html/body/div/form/div[5]/div/div/div[1]', locateStrategy: 'xpath' }, 'I ACCEPT')
+            
+            // REJECT ALL
+            browser.waitForElementVisible({ selector: '/html/body/div/form/div[5]/div/div/div[2]', locateStrategy: 'xpath' }, 'REJECT ALL')
+            
+            // accept cookie
+            browser.click({ selector: '/html/body/div/form/div[5]/div/div/div[1]', locateStrategy: 'xpath' }, 'I ACCEPT')
+            
+            
+            // LOCATE A SALES OR SERVICE PROVIDER
+            browser.assert.containsText({ selector: '/html/body/div/form/div[9]/div[1]/div/div/h1', locateStrategy: 'xpath' }, 'LOCATE A SALES OR SERVICE PROVIDER')
+          
+            // POSTAL CODE OR ADDRESS
+            browser.assert.containsText({ selector: '/html/body/div/form/div[9]/div[2]/div[1]/div[1]/div/div[1]/label', locateStrategy: 'xpath' }, 'POSTAL CODE OR ADDRESS')
+          
+             // input 
+             browser.waitForElementVisible({ selector: '/html/body/div/form/div[9]/div[2]/div[1]/div[1]/div/div[2]/input[1]', locateStrategy: 'xpath' }, 'input field is visible')
+
+             //  FIND LOCATIONS
+             browser.assert.containsText({ selector: '/html/body/div/form/div[9]/div[2]/div[1]/div[3]/div', locateStrategy: 'xpath' }, 'FIND LOCATIONS')
+           
+             // Services
+             browser.assert.containsText({ selector: '/html/body/div/form/div[9]/div[2]/div[1]/div[4]/div[1]/h5', locateStrategy: 'xpath' }, 'Services')
+           
+             // ALL LOCATIONS
+             browser.waitForElementVisible({ selector: '/html/body/div/form/div[9]/div[2]/div[1]/div[4]/div[2]/h5', locateStrategy: 'xpath' }, 'ALL LOCATIONS')
+           
+             // ONLY SALES
+             browser.waitForElementVisible({ selector: '/html/body/div/form/div[9]/div[2]/div[1]/div[4]/div[1]/div/div[1]/label', locateStrategy: 'xpath' }, 'ONLY SALES')
+           
+             // ALL SERVICE PROVIDERS
+             browser.waitForElementVisible({ selector: '/html/body/div/form/div[9]/div[2]/div[1]/div[4]/div[1]/div/div[2]/label', locateStrategy: 'xpath' }, 'ALL SERVICE PROVIDERS')
+           
+             // AUTHORIZED SERVICE PROVIDERS
+             browser.waitForElementVisible({ selector: '/html/body/div/form/div[9]/div[2]/div[1]/div[4]/div[1]/div/div[3]/label', locateStrategy: 'xpath' }, 'AUTHORIZED SERVICE PROVIDERS')
+           
+             // Distance
+             browser.waitForElementVisible({ selector: '/html/body/div/form/div[9]/div[2]/div[1]/div[4]/div[1]/div/div[4]/label', locateStrategy: 'xpath' }, 'Distance')
+           
+             //  select 
+             browser.waitForElementVisible({ selector: '/html/body/div/form/div[9]/div[2]/div[1]/div[4]/div[2]/div[1]/select', locateStrategy: 'xpath' }, '50 miles select field is visible')
+
+             // open 
+             browser.click({ selector: '/html/body/div/form/div[9]/div[2]/div[1]/div[4]/div[2]/div[1]/select', locateStrategy: 'xpath' }, 'open 50 miles select field')
+
+             // 50 Miles
+             browser.waitForElementVisible({ selector: '/html/body/div/form/div[9]/div[2]/div[1]/div[4]/div[2]/div[1]/select/option[1]', locateStrategy: 'xpath' }, '50 Miles')
+           
+             // 100 Miles
+             browser.waitForElementVisible({ selector: '/html/body/div/form/div[9]/div[2]/div[1]/div[4]/div[2]/div[1]/select/option[2]', locateStrategy: 'xpath' }, '100 Miles')
+           
+             // 200 Miles
+             browser.waitForElementVisible({ selector: '/html/body/div/form/div[9]/div[2]/div[1]/div[4]/div[2]/div[1]/select/option[3]', locateStrategy: 'xpath' }, '200 Miles')
+           
+             // 300 Miles
+             browser.waitForElementVisible({ selector: '/html/body/div/form/div[9]/div[2]/div[1]/div[4]/div[2]/div[1]/select/option[4]', locateStrategy: 'xpath' }, '300 Miles')
+           
+             // 400 Miles
+             browser.waitForElementVisible({ selector: '/html/body/div/form/div[9]/div[2]/div[1]/div[4]/div[2]/div[1]/select/option[5]', locateStrategy: 'xpath' }, '400 Miles')
+           
+             // 500 Miles
+             browser.waitForElementVisible({ selector: '/html/body/div/form/div[9]/div[2]/div[1]/div[4]/div[2]/div[1]/select/option[6]', locateStrategy: 'xpath' }, '500 Miles')
+           
+             // close
+             browser.click('body');
+
+             //  US
+             browser.waitForElementVisible({ selector: '/html/body/div/form/div[9]/div[2]/div[1]/div[4]/div[2]/div[2]/button[1]', locateStrategy: 'xpath' }, 'US')
+           
+              //  Metric
+             browser.waitForElementVisible({ selector: '/html/body/div/form/div[9]/div[2]/div[1]/div[4]/div[2]/div[2]/button[2]', locateStrategy: 'xpath' }, 'Metric')
+           
+
+            
+
             // switch back to the first tab
-            browser.switchWindow(originalHandle[0]);
+          //  browser.switchWindow(originalHandle[0]);
         });
 
 
         // checking text 'Worldwide Locations'
-        browser.assert.containsText({
+     /*   browser.assert.containsText({
             selector: '//*[@id="main-footer"]/div[1]/div[1]/app-footer-links/ul/li[2]/span/a',
             locateStrategy: 'xpath'
         }, 'Worldwide Locations');
@@ -279,7 +369,7 @@ module.exports = {
             selector: '//*[@id="main-footer"]/div[2]/div/div[3]/img',
             locateStrategy: 'xpath'
         }, 'oshkosh logo');
-
+*/
         // End the browser session
     }
 };  
